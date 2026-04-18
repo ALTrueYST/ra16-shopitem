@@ -1,9 +1,5 @@
 node_modules/
 dist/
-vite.config.js
-package-lock.json
-index.html
-src/main.jsx
 
 # Logs
 *.log
