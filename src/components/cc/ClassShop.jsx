@@ -15,7 +15,7 @@ export class ClassShop extends Component {
         <div className="highlight-window mobile"><div className="highlight-overlay"></div></div>
         <div class="divider"></div>
         <div class="purchase-info">
-          <div class="price">{item.currency}{item.price}</div>
+          <div class="price">{item.currency}{item.price.toFixed(2)}</div>
           <button>Add to cart (СС)</button>
         </div>
       </div>
